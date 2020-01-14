@@ -1,8 +1,8 @@
 $primary-color: rgb(75, 75, 75);
 $secondary-color: #eece1a;
 $show-home-image: true;
-$home-image: url(/TravisMedia_WebDevCrashCourses/ResponsivePortfolioWebsiteProject/dist/img/background.jpg);
-// $home-image: url(../dist/img/background.jpg);
+// $home-image: url(/TravisMedia_WebDevCrashCourses/ResponsivePortfolioWebsiteProject/dist/img/background.jpg);
+$home-image: url(../img/background.jpg);
 $background-opacity: 0.8;
 
 @mixin easeOut {
@@ -29,6 +29,7 @@ $background-opacity: 0.8;
         width: 100%;
         height: 100%;
         background: rgba($primary-color, $background-opacity);
+        opacity: $background-opacity;
       }
     }
   }
