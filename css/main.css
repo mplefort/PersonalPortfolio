@@ -137,7 +137,7 @@ body#bg-img {
 body#bg-img::after {
   content: "";
   position: absolute;
-  z-index: -2;
+  z-index: -1;
   top: 0;
   right: 0;
   width: 100%;
