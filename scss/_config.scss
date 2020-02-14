@@ -28,8 +28,9 @@ $background-opacity: 0.8;
         right: 0;
         width: 100%;
         height: 100%;
+        background: -webkit-rgba($primary-color, $background-opacity);
         background: rgba($primary-color, $background-opacity);
-        opacity: $background-opacity;
+        opacity: -webkit-$background-opacity;
       }
     }
   }
