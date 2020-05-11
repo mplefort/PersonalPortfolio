@@ -15,5 +15,8 @@
     "babel-preset-env": "^1.7.0",
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
