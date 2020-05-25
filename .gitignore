@@ -1,6 +1,30 @@
+# Dependency directory
+node_modules
 
-node_modules/
+# Optional npm cache directory
+.npm
 
+# VS cdoe settings
 *.code-workspace
+.vscode
+.pytest_cache
 
+# Optional REPL history
+.node_repl_history
+
+# Cache for Parcel
 .cache/
+
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# developemnt
+development/

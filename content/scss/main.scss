@@ -1,5 +1,5 @@
-@import "config";
-@import "menu";
+@import 'config';
+@import 'menu';
 * {
   //padding won't effect box model
   box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -81,17 +81,15 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "bioimage bio bio"
-    "job1 job2 job3";
+    'bioimage bio bio'
+    'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
-  
 
   .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
-
   }
 
   .bio {
@@ -137,8 +135,8 @@ main {
   .item {
     display: grid;
     grid-template-areas:
-      "projectimg projectimg"
-      "btn-dark btn-light";
+      'projectimg projectimg'
+      'btn-dark btn-light';
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -202,4 +200,4 @@ main {
   // element before it min-height = calc(height - footer_ht)
 }
 
-@import "mobile";
+@import 'mobile';
