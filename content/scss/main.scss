@@ -123,6 +123,8 @@ main {
     grid-area: projectimg;
 
     width: 200%;
+    height: 12rem;
+    // max-height: 12rem;
     border: 3px #fff solid;
 
     &:hover {
@@ -136,9 +138,16 @@ main {
     display: grid;
     grid-template-areas:
       'projectimg projectimg'
-      'btn-dark btn-light';
+      'btn-dark btn-light'
+      'features features';
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.features{
+  grid-area: features;
+  list-style-type: none;
+  padding: 0;
 }
 
 // Contact Page
@@ -165,6 +174,7 @@ main {
     }
   }
 }
+
 
 // button Styles
 .btn {
